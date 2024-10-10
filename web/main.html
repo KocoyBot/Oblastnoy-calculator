@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <script src="eel.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <div class="head1">Областной</div>
+    <div class="head">калькулятор</div>
+    <form name="form">
+    <div class="form">
+            <input name="text" class="input" type="text" readonly/></div></form><br>
+            <div class="buttons">
+            <input type="button" class="button" value="С" onclick="clean();"/>
+            <input type="button" class="button" value="+" onclick="insert('+');"/>
+            <input type="button" class="button" value="-" onclick="insert('-');"/>
+            <input type="button" class="button" value="⌫" onclick="back();"/><br>
+            <input type="button" class="button" value="7" onclick="insert('7');"/>
+            <input type="button" class="button" value="8" onclick="insert('8');"/>
+            <input type="button" class="button" value="9" onclick="insert('9');"/>
+            <input type="button" class="button" value="×" onclick="insert('*');"/><br>
+            <input type="button" class="button" value="4" onclick="insert('4');"/>
+            <input type="button" class="button" value="5" onclick="insert('5');"/>
+            <input type="button" class="button" value="6" onclick="insert('6');"/>
+            <input type="button" class="button" value="÷" onclick="insert('/');"/><br>
+            <input type="button" class="button" value="1" onclick="insert('1');"/>
+            <input type="button" class="button" value="2" onclick="insert('2');"/>
+            <input type="button" class="button" value="3" onclick="insert('3');"/>
+            <input type="button" class="button" value="=" onclick="ravno();"/><br>
+            <input type="button" class="button" value="%" onclick="insert('%');"/>
+            <input type="button" class="button" value="0" onclick="insert('0');"/>
+            <input type="button" class="button" value="," onclick="insert(',');"/>
+            </div>
+    <h3>DeLeDy | Eg0rf0GG | Егор Бекренёв</h1>
+</body>
+</html>
